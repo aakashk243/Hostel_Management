@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 const ADMIN_LIST = ["warden1","warden2","warden3","admin1"];
 
 export default function Login() {
@@ -6,6 +7,7 @@ export default function Login() {
   const [username, setUsername] = useState("");
   const [rollNo, setRollNo] = useState("");
   const [error, setError] = useState("");
+  const navigate = useNavigate();
 
   const validateRollNumber = (roll) => {
     // Format: CH.(SC/AI/EN).(U4/I2).(CSE/AIE/CYS/AID/ECE/CCE/MEE/ARE/RAI)(YY)(XXX)
@@ -20,6 +22,8 @@ export default function Login() {
       alert("Please select a role");
       return;
     }
+
+    navigate("/home");
 
     if (role === "admin") {
       if(ADMIN_LIST.includes(username)){
