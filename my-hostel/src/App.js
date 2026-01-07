@@ -4,6 +4,7 @@ import Login from './Login';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './Home';
 import RoomInfo from './RoomInfo';
+import NoticeBoard from './NoticeBoardPage';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/home" element={<Home />} />
         <Route path="/room-info" element={<RoomInfo />} />
+        <Route path="/notice-board" element={<NoticeBoard />} />
       </Routes>
     </BrowserRouter>
   );

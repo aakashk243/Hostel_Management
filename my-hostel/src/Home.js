@@ -61,7 +61,8 @@ export default function Home() {
           </div>
 
           {/* Card 3 */}
-          <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition">
+          <div onClick={() => navigate("/notice-board")} 
+          className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition">
             <h2 className="text-xl font-semibold mb-2">Hostel Notice Board System</h2>
             <p className="text-gray-600">
               RPC (REST API)
