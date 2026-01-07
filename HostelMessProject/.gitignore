@@ -1,0 +1,12 @@
+# Node
+node_modules/
+
+# Java
+*.class
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# Env
+.env
