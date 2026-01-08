@@ -1,0 +1,9 @@
+{"type":"SUBMIT_COMPLAINT","id":"1767717753717","room":"11","category":"Water","desc":"zssdg","timestamp":"10:12:33 PM","status":"Resolved"}
+{"type":"SUBMIT_COMPLAINT","id":"1767718611861","room":"1121","category":"Water","desc":"thsi sis the jzzhciu","slot":"2026-01-06T22:26","timestamp":"10:26:51 PM","status":"Resolved"}
+{"type":"SUBMIT_COMPLAINT","id":"1767719156012","room":"ds","category":"Water","desc":"xcb","slot":"2026-01-03T22:35","timestamp":"10:35:56 PM","status":"Resolved"}
+{"type":"SUBMIT_COMPLAINT","id":"1767719864073","room":"111","category":"Water","desc":"jdvshdg","slot":"2026-01-06T22:47","timestamp":"10:47:44 PM","status":"Resolved"}
+{"type":"SUBMIT_COMPLAINT","id":"1767719924069","room":"nvhgsd","category":"Water","desc":"snjd","slot":"2026-01-07T22:48","timestamp":"10:48:44 PM","status":"Resolved"}
+{"type":"SUBMIT_COMPLAINT","id":"1767720617706","room":"jbvsjdb","category":"Water","desc":"cnkjdbvsjdvn","slot":"2026-01-16T23:00","timestamp":"11:00:17 PM","status":"Pending"}
+{"type":"SUBMIT_COMPLAINT","id":"1767721170886","room":"337","category":"Internet","desc":"bhaai is kojja","slot":"2026-01-06T23:09","timestamp":"11:09:30 PM","status":"Resolved"}
+{"type":"SUBMIT_COMPLAINT","id":"1767721443221","room":"337","category":"Internet","desc":"bhaai is kojja lanja","slot":"2026-01-15T23:13","timestamp":"11:14:03 PM","status":"Resolved"}
+{"type":"SUBMIT_COMPLAINT","id":"1767721993088","room":"777","category":"Water","desc":"vftfkugkyhvhu","slot":"2026-01-06T23:22","timestamp":"11:23:13 PM","status":"Resolved"}
