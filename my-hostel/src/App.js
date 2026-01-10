@@ -5,6 +5,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './Home';
 import RoomInfo from './RoomInfo';
 import NoticeBoard from './NoticeBoardPage';
+import Complaints from './Complaints';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/room-info" element={<RoomInfo />} />
         <Route path="/notice-board" element={<NoticeBoard />} />
+        <Route path="/complaints" element={<Complaints />} />
       </Routes>
     </BrowserRouter>
   );

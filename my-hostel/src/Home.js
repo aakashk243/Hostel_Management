@@ -44,7 +44,8 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           
           {/* Card 1 */}
-          <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition">
+          <div onClick={() => navigate("/complaints")} 
+          className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition">
             <h2 className="text-xl font-semibold mb-2">Hostel Complaint Management System</h2>
             <p className="text-gray-600">
               Socket Programming
