@@ -1,0 +1,14 @@
+com\hostelassist\canteen\CanteenServer$UpdateOrderHandler.class
+com\hostelassist\canteen\CanteenServer$PlaceOrderHandler.class
+com\hostelassist\canteen\CanteenServer$RemoveMenuItemHandler.class
+com\hostelassist\canteen\CanteenServer.class
+com\hostelassist\canteen\CanteenServer$AddMenuItemHandler.class
+com\hostelassist\canteen\CanteenServer$CORSHandler.class
+com\hostelassist\canteen\CanteenServer$UpdateMenuItemHandler.class
+com\hostelassist\canteen\models\MenuItem.class
+com\hostelassist\canteen\storage\InMemoryStorage.class
+com\hostelassist\canteen\models\Order.class
+com\hostelassist\canteen\CanteenServer$StudentOrdersHandler.class
+com\hostelassist\canteen\CanteenServer$OrdersHandler.class
+com\hostelassist\canteen\models\OrderItem.class
+com\hostelassist\canteen\CanteenServer$MenuHandler.class
