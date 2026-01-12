@@ -6,6 +6,7 @@ import Home from './Home';
 import RoomInfo from './RoomInfo';
 import NoticeBoard from './NoticeBoardPage';
 import Complaints from './Complaints';
+import ShareResource from './ShareResource';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/room-info" element={<RoomInfo />} />
         <Route path="/notice-board" element={<NoticeBoard />} />
         <Route path="/complaints" element={<Complaints />} />
+        <Route path="/share-resource" element={<ShareResource />} />
       </Routes>
     </BrowserRouter>
   );

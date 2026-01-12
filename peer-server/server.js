@@ -7,7 +7,7 @@ const dgram = require('dgram');
 
 const app = express();
 const PORT = 5000; 
-const DISCOVERY_PORT = 8889;
+const DISCOVERY_PORT = 41234;
 const SHARED_DIR = path.join(__dirname, '../backend/shared_files');
 
 if (!fs.existsSync(SHARED_DIR)) fs.mkdirSync(SHARED_DIR, { recursive: true });
@@ -42,7 +42,16 @@ app.get('/my-files', (req, res) => {
 
 // 3. NO CENTRAL SERVER: UDP Discovery
 const peers = new Set();
-const udpServer = dgram.createSocket('udp4');
+const udpServer = dgram.createSocket({
+  type: 'udp4',
+  reuseAddr: true
+});
+
+// // 3. TEMPORARY MANUAL PEERS (NO UDP – FOR TESTING)
+// const peers = new Set([
+//   "10.188.54.75",   // Computer 1 IP
+//   "10.188.54.188"    // Computer 2 IP
+// ]);
 
 udpServer.on('message', (msg, rinfo) => {
     if (msg.toString() === 'HI_PEER') {
@@ -57,7 +66,10 @@ setInterval(() => {
     udpServer.send(message, 0, message.length, DISCOVERY_PORT, '255.255.255.255');
 }, 5000);
 
-udpServer.bind(DISCOVERY_PORT);
+udpServer.bind(DISCOVERY_PORT, () => {
+  udpServer.setBroadcast(true);
+  console.log(`UDP discovery listening on ${DISCOVERY_PORT}`);
+});
 
 app.get('/peers', (req, res) => res.json(Array.from(peers)));
 

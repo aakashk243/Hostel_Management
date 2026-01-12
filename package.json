@@ -1,0 +1,11 @@
+{
+  "name": "p2p-system",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm start --prefix my-hostel\" \"npm start --prefix peer-server\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
