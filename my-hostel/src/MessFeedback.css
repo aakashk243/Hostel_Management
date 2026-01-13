@@ -1,0 +1,106 @@
+/* Page wrapper */
+.mess-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Page title */
+.mess-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 6px;
+}
+
+/* Day text */
+.mess-day {
+  color: #6b7280;
+  margin-bottom: 25px;
+}
+
+/* Card (same style as Home page cards) */
+.mess-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+}
+
+/* Section heading */
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  color: #111827;
+}
+
+/* Menu row */
+.menu-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.menu-row:last-child {
+  border-bottom: none;
+}
+
+/* Item name */
+.menu-item {
+  font-weight: 600;
+  color: #1f2937;
+  width: 120px;
+}
+
+/* Buttons group */
+.feedback-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Feedback buttons */
+.feedback-btn {
+  border: none;
+  background: #eef2ff;
+  color: #3730a3;
+  padding: 8px 14px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.feedback-btn:hover {
+  background: #e0e7ff;
+  transform: translateY(-1px);
+}
+
+/* Counters */
+.feedback-count {
+  margin-left: 12px;
+  font-size: 14px;
+  color: #4b5563;
+  min-width: 120px;
+}
+
+/* Overall section */
+.overall-actions {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 10px;
+}
+
+/* Overall counter */
+.overall-count {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #1f2937;
+}

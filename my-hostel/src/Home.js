@@ -80,7 +80,8 @@ export default function Home() {
           </div>
 
           {/* Card 5 */}
-          <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition">
+          <div onClick={() => navigate("/mess-feedback")}
+          className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition">
             <h2 className="text-xl font-semibold mb-2">Mess Feedback Live Counter</h2>
             <p className="text-gray-600">
               Shared Memory

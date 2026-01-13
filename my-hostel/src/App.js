@@ -7,6 +7,7 @@ import RoomInfo from './RoomInfo';
 import NoticeBoard from './NoticeBoardPage';
 import Complaints from './Complaints';
 import ShareResource from './ShareResource';
+import MessFeedback from './MessFeedback';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path="/notice-board" element={<NoticeBoard />} />
         <Route path="/complaints" element={<Complaints />} />
         <Route path="/share-resource" element={<ShareResource />} />
+        <Route path="/mess-feedback" element={<MessFeedback />} />
       </Routes>
     </BrowserRouter>
   );
