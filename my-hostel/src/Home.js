@@ -88,7 +88,26 @@ export default function Home() {
             </p>
           </div>
 
+          {/* Card 6 */}
+          <div onClick={() => navigate("/laundry-service")}
+          className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition">
+            <h2 className="text-xl font-semibold mb-2">Laundry Service</h2>
+            <p className="text-gray-600">
+              Shared Memory
+            </p>
+          </div>
+
+          {/* Card 7 */}
+          <div onClick={() => navigate("/missing-item")}
+          className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition">
+            <h2 className="text-xl font-semibold mb-2">Missing Item Complaint System</h2>
+            <p className="text-gray-600">
+              REST API with Concurrent Data Structures
+            </p>
+          </div>
         </div>
+
+        
 
         {/* Call to Action */}
         <div className="mt-14 text-center">

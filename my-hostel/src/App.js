@@ -8,6 +8,8 @@ import NoticeBoard from './NoticeBoardPage';
 import Complaints from './Complaints';
 import ShareResource from './ShareResource';
 import MessFeedback from './MessFeedback';
+import LaundryService from './LaundryService';
+import MissingItem from './MissingItem';
 
 function App() {
   return (
@@ -36,6 +38,8 @@ function App() {
         <Route path="/complaints" element={<Complaints />} />
         <Route path="/share-resource" element={<ShareResource />} />
         <Route path="/mess-feedback" element={<MessFeedback />} />
+        <Route path="/laundry-service" element={<LaundryService />} />
+        <Route path="/missing-item" element={<MissingItem />} />
       </Routes>
     </BrowserRouter>
   );
